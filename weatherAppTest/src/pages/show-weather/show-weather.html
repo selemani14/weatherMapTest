@@ -1,0 +1,79 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button outline (click)="closeWeatherMap()" >
+	Close x
+  </button> 
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+ <div class="weatherPageBg">
+	<br/>
+	<h4 class="weatherTitle" align="center">TEMPERATURE <br/> <ion-icon name="cloud"></ion-icon> <br/> 
+	</h4>
+	<span class="ctitle">JOHANNESBURG<br/>
+	SOUTH AFRICA</span>
+
+<br/>
+
+<ion-grid  *ngFor="let item of temperature; let i = index">
+	<ion-row class="b">
+  <ion-col col-11 class=" W2">
+      <span class="c"> {{ item.dt_txt }}</span>
+    </ion-col>
+  </ion-row>
+  
+  <ion-row class="b3">
+    <ion-col col-3 class="w1">
+      <span class="weatherCloud"> {{ item.main.temp }} <sup>o</sup> c</span>
+    </ion-col>
+	<ion-col col-4 class="w2">
+      Humidity<br/>
+					Maximum Temp<br/>
+					Minimum Temp<br/>
+    </ion-col>
+	<ion-col col-3 class="w2"> 
+      {{ item.main.humidity }}% <br/>
+					{{ item.main.temp_max }} <sup>o</sup> c<br/>
+					{{ item.main.temp_min }} <sup>o</sup> c<br/>
+    </ion-col>
+	
+	
+     
+    
+  </ion-row>
+  
+  <ion-row class="b2" *ngFor="let desc of item.weather; let j = index">
+  <ion-col col-11 class=" W2">
+     <span class="desc">{{ desc.description}}</span>
+    </ion-col>
+  </ion-row>
+  
+</ion-grid>
+
+	<br/>
+	<div class="weatherBlogs">
+	</div>
+	<br/>
+	<div class="weatherBlogs">
+	</div>
+<!--
+   <img class="img-circle" src="assets/imgs/weatherMapbg.png"  width="128" height="128" />
+  <br/>
+  <span class="deglogo">
+  <ion-icon name="cloud"></ion-icon>
+  </span><br/>
+  <span class="deg">
+  16<sup>o</sup> 
+  </span>
+  
+  <br/><br/><br/>
+  <!-- <button ion-button (click)="openWeatherMap()" class="buts">
+	Click To View Weather
+  </button> -->
+  </div>
+</ion-content>

@@ -1,0 +1,135 @@
+page-show-weather {
+.weatherPageBg{
+		background-image: url(../assets/imgs/weatherMapbg.png);
+		background-repeat: repeat-y;
+		width: 100%;
+		font-family: calibri;
+	} 
+	.weatherTitle{
+		color: #fff;
+		text-shadow: 2px 5px #03182f;
+		//margin-left: 30%;
+	}
+	.b{
+		margin-left: 3%;
+		border-top: 1px solid #fff;
+	}
+	.b2{
+		margin-left: 3%;
+		border-bottom: 1px solid #fff;
+	}
+	.b3{
+		margin-left: 3%;
+		//border-bottom: 1px solid #fff;
+	}
+	.b1{
+		margin-left: 1%;
+	}
+	.ctitle{
+		font-size: 11px;
+		text-align: center;
+		color: #fff;
+		display: block;
+		text-shadow: 2px 5px #03182f;
+	}
+	.weatherCloud{
+		font-size: 23px;
+	}
+	.c{
+		color: #fff;
+		text-shadow: 2px 5px #03182f;
+	}
+	.weatherBlogs{
+	margin-left: 5%;
+		width: 100%;
+		border-radius: 10px;
+		//height: 19%;
+		//background-color:rgb(0,0,0);opacity:0.3;
+		background-image: url(../assets/imgs/blockbg.png);
+		//border-top: 1px dashed #4dd96e; 
+		//border-bottom: 1px dashed #4dd96e;
+	}
+	.weatherblock{
+		background-image: url(../assets/imgs/blockbg.png);
+	}
+	.bots{
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+		background-image: url(../assets/imgs/blockbg.png);
+		
+		
+	}
+	.bots1{
+		//border-bottom: 1px solid #fff;
+		border-radius: 10px;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+		//background-image: url(../assets/imgs/blockbg1.png);
+	}
+	.desc{
+		color: #fff;
+		font-size: 11px;
+	}
+	.descbot{
+		color: orange;
+		font-size: 11px;
+	}
+	.w1{
+		width: 14%;
+		color: #ffffff;
+		//border-right: 1px solid #fff;
+		margin-right: 5%;
+		text-shadow: 2px 5px #03182f;
+		//border-right: 1px solid #fff;
+	}
+	.w3{
+		width: 20%;
+		color: #ffffff;
+		//border-right: 1px solid #fff;
+		margin-right: 5%;
+		text-shadow: 2px 5px #03182f;
+		
+	}
+	.w2{
+		width: 35%;
+		color: #fff;
+		text-shadow: 2px 5px #03182f;
+		font-size: 14px;
+		margin-right: 5%; 
+		padding-right: 5%;
+		text-transform: uppercase;
+	}
+	.deg{
+	  color: #fff;
+	  font-size: 65px;
+	  margin-left: 20%;
+	  text-shadow: 5px 5px #fb9209;
+	  //margin-left: 30%;
+	  background-image: url(../assets/imgs/weatherMapbg.png);
+	}
+	.deglogo{
+	  color: #fff;
+	  font-size: 105px;
+	  text-shadow: 5px 5px #fb9209;
+	  margin-left: 20%;
+	  //margin-left: 30%;
+	}
+	.tit{
+		color: #ffffff;
+		font-size: 25px;
+		display: block;
+		margin-left: 20%;
+		//background-color: #f2a138;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	.buts{
+	  //background-color: #fff;
+	  color: #fb7273;
+	}
+	.desc{
+		color: #fff;
+		font-size: 18px;
+		text-shadow: 2px 5px #03182f;
+	}
+}
